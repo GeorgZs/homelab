@@ -65,13 +65,13 @@ pages:
                 allow-insecure: true
                 icon: di:proxmox
               - title: Nextcloud
-                url: https://cloud.hopki.net/
-                check-url: http://10.0.0.104:11000
+                url: https://10.0.0.124:8080/
+                check-url: http://10.0.0.124:8080
                 icon: di:nextcloud
-              #- title: Immich
-              # url: https://immich.hopki.net/
-              # check-url: http://10.0.0.104:2283
-              # icon: di:immich
+              - title: Immich
+                url: https://10.0.0.139:2283/
+                check-url: http://10.0.0.139:2283
+                icon: di:immich
               #- title: Pi-Hole
               # url: https://pihole.hopki.net/admin
               # check-url: http://10.0.0.103:80
